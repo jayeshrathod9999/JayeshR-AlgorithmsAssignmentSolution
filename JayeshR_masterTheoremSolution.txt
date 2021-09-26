@@ -1,0 +1,43 @@
+Q1) T (n) = 3T (n/2) + n 
+Ans : n^(log3[base2])
+
+ 	a=3
+	b=2
+	d=1
+
+	a> b^d
+
+Q2)  T (n) = 64T (n/8) - n^2(log n) 
+Ans : n^2(log n)
+
+	a=64
+	b=8
+	d=2
+
+	a = b^d
+
+Q3) T (n) = 2nT (n/2) + n^n
+Ans : N.A.
+
+	a=2
+	b=2
+	d=n
+
+Q4) T (n) = 3T (n/3) + n/2
+Ans : n(log n)
+
+	a=3
+	b=3
+	d=1
+
+	a = b^d
+
+Q5) T (n) = 7T (n/3) + n^2
+Ans : n^2
+	
+	a=7
+	b=3
+	d=2
+
+	a < b^d
+	
